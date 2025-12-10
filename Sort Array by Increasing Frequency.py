@@ -8,6 +8,7 @@ class Solution:
         for i in count:
             while count[i] >0:
                 ans.append(i)
+                count[i]-=1
         return ans
 
         
